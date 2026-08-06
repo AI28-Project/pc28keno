@@ -1,17 +1,17 @@
 # Keno → PC28
 
-**加拿大 Keno 彩票实时转化采集引擎**
+加拿大 Keno 彩票实时转化采集引擎。
 
-将官方 Keno 开奖精准转换为加拿大 PC28，并完成入库与衍生计算。面向生产环境：多源并发采集、事件驱动处理、PostgreSQL 幂等落库，开箱可部署。
+将官方 Keno 开奖精准转换为加拿大 PC28，并完成入库与衍生计算：多源并发采集、事件驱动处理、PostgreSQL 幂等落库，开箱可部署。
 
 | 项 | 说明 |
 |---|---|
-| 作者 | Telegram [@yuuu](https://t.me/yuuu) |
 | 语言 | Python 3.11+（推荐 3.12 / 3.14） |
 | 运行时 | `asyncio` + `httpx` + `psycopg 3` 连接池 |
 | 存储 | PostgreSQL |
 | 入口 | `python main.py` |
-| License | 见仓库声明（以 GitHub 仓库设置为准） |
+
+**作者**：[Telegram @yuuu](https://t.me/yuuu)
 
 ---
 
@@ -28,7 +28,7 @@
 - [运行与运维](#运行与运维)
 - [目录结构](#目录结构)
 - [常见问题](#常见问题)
-- [作者](#作者)
+- [License](#license)
 
 ---
 
@@ -396,12 +396,11 @@ A: PlayNow 按 America/Vancouver 解析再转上海时间；pc28.help 按已是 
 
 ---
 
-## 作者
+## License
 
-- **Telegram**：[@yuuu](https://t.me/yuuu)
-- **GitHub**：[@shuaiqideyu](https://github.com/shuaiqideyu)
+以 GitHub 仓库 License 设置为准。
 
-本仓库由 [@yuuu](https://t.me/yuuu) 独立维护；提交作者身份为 `yuuu`。
+**作者**：[Telegram @yuuu](https://t.me/yuuu)
 
 ---
 
