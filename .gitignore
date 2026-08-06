@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Virtual environment
+venv/
+.venv/
+env/
+
+# Secrets — 只提交 .env.example
+.env
+.env.local
+.env.*.local
+
+# IDE / OS
+.idea/
+.vscode/
+.cursor/
+!.cursor/rules/
+!.cursor/rules/**
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Logs / temp
+*.log
+.tmp_*/
+*.zip
