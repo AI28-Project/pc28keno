@@ -1,4 +1,10 @@
-# Keno → PC28
+# 这个仓库不再更新
+
+现行开奖检测在 [pc28-draw-skills](https://github.com/shuaiqideyu/pc28-draw-skills)。接口、Chrome 指纹、IPv6，以及全年夏令时（固定 UTC−7）都以那边为准。
+
+下面是 2026-08 的旧采集程序，留作对照。其中「PlayNow 必须走代理」和「时间绑在 America/Vancouver」不要再照做。
+
+# Keno → PC28（旧）
 
 加拿大 Keno 彩票实时转化采集引擎。
 
